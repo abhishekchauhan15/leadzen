@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Collapse } from "react-bootstrap";
+import "../App.css"
 
 const CardInfo = ({ item }) => {
   const [open, setOpen] = useState(false);
@@ -49,7 +50,7 @@ const CardInfo = ({ item }) => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Deleniti adipisci fugit sed! Ullam veritatis facilis non
                   temporibus, id labore quo? Nam possimus illum nulla ipsam
-                  explicabo nemo error repellendus vero!
+                  explicabo
                 </p>
               </div>
               <div class="flex flex-wrap  mt-3">
